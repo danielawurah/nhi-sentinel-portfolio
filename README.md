@@ -1,4 +1,4 @@
-# NHI-Sentinel — Non-Human Identity Governance Platform
+# NHI-Sentinel — Non-Human Identity Governance Platform 
 
 Automated discovery, risk scoring, and AI-powered policy remediation across Entra ID, Okta, and Active Directory.
 
@@ -8,7 +8,7 @@ Automated discovery, risk scoring, and AI-powered policy remediation across Entr
 
 ## Project Overview
 
-Most IAM programmes focus entirely on human users, but **Non-Human Identities (NHI)** — service accounts, API bots, OAuth apps, and automation credentials — are typically the largest and least-governed identity population in any enterprise. They don't log in via MFA, they don't get offboarded when a project ends, and they rarely appear in access reviews. A single overprivileged service account or a leaked CI/CD token can be the entry point for a lateral movement or data exfiltration attack.
+Most IAM programmes focus entirely on human users, but **Non-Human Identities (NHI)** — service accounts, API bots, OAuth apps, and automation credentials — are typically the largest and least-governed identity population in any enterprise. They don't log in via MFA, they don't get offboarded when a project ends, and they rarely appear in access reviews. A single overprivileged service account or a leaked CI/CD token can be the entry point for a lateral movement or data exfiltration attack.  
 
 **NHI-Sentinel** is a locally-hosted identity governance platform that discovers, inventories, and continuously monitors non-human identities across Entra ID, Okta, and Active Directory. It surfaces orphaned accounts, overprivileged tokens, and exposed secrets, assigns a real-time risk score to every identity, and uses a locally-running LLM (Llama 3 via Ollama) to generate least-privilege policy recommendations — which can be exported as JSON, Terraform, or PowerShell and deployed directly to the connected identity provider. No identity data leaves the machine.
 
